@@ -1,0 +1,335 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana, Tahoma, Arial, Sans-Serif;
+	background: url("../images/bg.jpg") #8D8B8C top left repeat-x;
+	font-size: 10px;
+	color: #4F4F4F;
+}
+
+h1{font-size: 14px;}
+
+ /* TEXT LINKS
+ -------------------------------------------------------------------------*/
+
+ /*default - grey to dark blue*/
+
+ A:link {
+  text-decoration:none;
+ }
+
+ A:visited {
+ text-decoration:none;
+ }
+
+ A:active {
+ text-decoration:none;
+ }
+
+ A:hover {
+ color:#6F6F6F;
+ text-decoration:underline;
+ }
+
+
+ a {
+ font-size:12px;
+ font-weight:bold;
+ color:#040CCF;
+ }
+
+ /* TEXT LINKS - END
+  -------------------------------------------------------------------------*/
+
+   .navBar a:link {
+   color:#FFFFFF;
+   text-decoration:none;
+   }
+
+   .navBar a:active {
+   color:#FFFFFF;
+   text-decoration:none;
+   }
+
+  .navBar a:visited {
+   color:#FFFFFF;
+   text-decoration:none;
+   }
+
+
+
+   .navBar a:hover {
+   background:#583939;
+   color:#797979;
+   align:centre;
+   valign:centre;
+   text-decoration:none;
+   font-weight: bold;
+   }
+
+   .navBar a {
+   text-color:#797979;
+   align:centre;
+   valign:bottom;
+   text-decoration:none;
+   font-weight: bold;
+   padding:8px;
+   display:block;
+   font-size:12px;
+   }
+
+   .selected {
+     background:#FFFFFF;
+     color:#583939;
+     align:centre;
+     valign:centre;
+     text-decoration:none;
+     font-weight: bold;
+     padding: 10px 10px 12px 10px;
+     font-size:12px;
+   }
+
+ p{font-size:12px;}
+ strong{font-size:10px;}
+ img{border:0px;}
+
+ .smalldarktext {
+ font-size:10px;
+ }
+ 
+ .sidebar img {padding:2px;}
+ 
+/* ROUNDED Corner CSS */ 
+ .roundcont {
+		
+		background-color: #CE0808;
+		color: #fff;
+		}
+		
+		.roundcont p {
+			margin: 0 10px;
+		}
+		
+		.roundtop { 
+			background: url(../images/tr.gif) no-repeat top right; 
+		}
+		
+		.roundbottom {
+			background: url(../images/br.gif) no-repeat top right; 
+		}
+		
+		img.corner {
+		   width: 15px;
+		   height: 15px;
+		   border: none;
+		   display: block !important;
+		}
+/* End of - ROUNDED Corner CSS */
+
+  .thumbnail {
+ 	padding: 3px;
+ 	border: 1px #BFBFBF solid;
+ 	background-color: #FFFFFF;
+ 	margin:5px;
+ }
+ 
+ #menu {
+ 	vertical-align:bottom;
+ }
+ 
+ #menu li {
+ 	display: inline;
+ 	list-style-type: none;
+ 	padding-right: 20px; 	
+ }
+ 
+ #menu li a {
+ 	font-size:12px;
+ }
+ 
+ /* CSS Document */
+
+.rhm1-bg{
+}
+.rhm1-bg ul{
+	list-style:none;
+	margin:0 auto;
+}
+.rhm1-bg li{
+	float:left;
+	list-style:none;
+}
+.rhm1-bg li a{
+	float:left;
+	display:block;
+	color:#CFDEFF;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	padding:0 0 0px 18px;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;	
+}
+.rhm1-bg li a span{
+	float:left;
+	display:block;
+	padding:4px 30px 0 16px;
+}
+.rhm1-bg li.current a{
+	color:#6F6F6F;
+	background:url(../images/rhm1_hover_l.png) no-repeat left 5px;
+}
+.rhm1-bg li.current a span{
+	color:#6F6F6F;
+	background:url(../images/rhm1_hover_r.png) no-repeat right 5px;
+}
+.rhm1-bg li a:hover{
+	color:#6F6F6F;
+	background:url(../images/rhm1_hover_l.png) no-repeat left 5px;
+}
+.rhm1-bg li a:hover span{
+	color:#6F6F6F;
+	background:url(../images/rhm1_hover_r.png) no-repeat right 5px;
+}
+ 
+ 
+/* */
+
+   /* set the image to use and establish the lower-right position */
+    .cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2{
+      background: transparent url(../images/img.php.png) no-repeat bottom right}
+    .cssbox{
+    /* intended total box width - padding-right(next) */
+      width:765px !important; /* IE Win = width - padding */
+      width: 750px; 
+    /* the gap on the right edge of the image (not content padding) */
+      padding-right:15px; /* use to position the box */
+     }
+
+    /* set the top-right image */
+    .cssbox_head{background-position:top right;
+    /* pull the right image over on top of border */
+      margin-right:-15px; 
+    /* right-image-gap + right-inside padding */
+      padding-right:40px}
+
+    /* set the top-left image */
+    .cssbox_head h2{
+      background-position:top left;
+      margin:0; /* reset main site styles*/ 
+      border:0; /* ditto */
+    /* padding-left = image gap + interior padding ... no padding-right */
+      padding:25px 0 15px 20px; 
+      height:auto !important;
+      height:1%} /* IE Holly Hack */
+
+    /* set the lower-left corner image */
+    .cssbox_body{
+      background-position:bottom left;
+      margin-right:25px; /* interior-padding right */ 
+      padding:15px 0 15px 40px} /* mirror .cssbox_head right/left */
+      
+/**/
+
+.breadCrumbContainer {padding-bottom:10px;font-size:11px;}
+
+.breadCrumbContainer a{font-size:11px;}
+ 
+.contactUsContainer td{
+	
+	font-size:14px;
+	font-weight:bold;
+	color:#6F6F6F;
+	
+}
+
+.rolloverJapnaeseWreckers a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/capabala-japanese-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+.rolloverJapnaeseWreckers a:hover { 
+background: url("../images/capabala-japanese-wreckers-logo-color.png") 0 0 no-repeat;
+}
+.rolloverJapnaeseWreckers a:active {
+background: url("../images/capabala-japanese-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+
+.rolloverMazfordWreckers a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/capabala-mazford-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+.rolloverMazfordWreckers a:hover { 
+background: url("../images/capabala-mazford-wreckers-logo-color.png") 0 0 no-repeat;
+}
+.rolloverMazfordWreckers a:active {
+background: url("../images/capabala-mazford-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+
+.rollover4wdWreckers a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/capabala-4wd-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+.rollover4wdWreckers a:hover { 
+background: url("../images/capabala-4wd-wreckers-logo-color.png") 0 0 no-repeat;
+}
+.rollover4wdWreckers a:active {
+background: url("../images/capabala-4wd-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+		
+.rolloverHoldenWreckers a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/capabala-holden-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+.rolloverHoldenWreckers a:hover { 
+background: url("../images/capabala-holden-wreckers-logo-color.png") 0 0 no-repeat;
+}
+.rolloverHoldenWreckers a:active {
+background: url("../images/capabala-holden-wreckers-logo-grey.png") 0 0 no-repeat;
+}
+
+.rolloverPickNPullAutoParts a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/pick-n-pull-auto-parts-logo-grey.png") 0 0 no-repeat;
+}
+.rolloverPickNPullAutoParts a:hover { 
+background: url("../images/pick-n-pull-auto-parts-logo-color.png") 0 0 no-repeat;
+}
+.rolloverPickNPullAutoParts a:active {
+background: url("../images/pick-n-pull-auto-parts-logo-grey.png") 0 0 no-repeat;
+}
+.rolloverCapabalaRacing a{
+display:block;
+width: 165px;
+height:100px;
+background: url("../images/capabala-racing-logo-grey.png") 0 0 no-repeat;
+align:center;
+}
+.rolloverCapabalaRacing a:hover { 
+background: url("../images/capabala-racing-logo-color.png") 0 0 no-repeat;
+}
+.rolloverCapabalaRacing a:active {
+background: url("../images/capabala-racing-logo-grey.png") 0 0 no-repeat;
+}
+
+.selected {
+	
+	width: 180px;
+	height:100px;
+}
+.selected a{
+	background-color:#EFEFEF;
+	width: 180px;
+	height:100px;
+	align:left;
+}
